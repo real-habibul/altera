@@ -1,8 +1,6 @@
 package Day4.Challange2;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
@@ -34,7 +32,6 @@ public class Calculator {
     private static void runOperation() {
         Scanner input = new Scanner(System.in);
         System.out.println("\n+++++++ Calculator +++++++");
-//        MathContext precision = new MathContext(3);
         System.out.print("Masukkan Value 1: ");
         BigDecimal value1 = input.nextBigDecimal();
         System.out.print("Masukkan Value 2: ");
