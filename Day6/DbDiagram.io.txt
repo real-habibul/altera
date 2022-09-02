@@ -1,0 +1,5 @@
+PART 2 - Data Definition Language
+https://dbdiagram.io/d/630e63b50911f91ba5fceea0
+
+Database Relational
+https://dbdiagram.io/d/63112d9d0911f91ba51ac73e
