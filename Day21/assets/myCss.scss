@@ -1,0 +1,26 @@
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    &-header {
+        background-color: rgb(255, 255, 255);
+        color: #000;
+        padding: 10px;
+        text-align: center;
+    
+    }
+}
+
+.form-check {
+    margin-bottom: 10px;
+}

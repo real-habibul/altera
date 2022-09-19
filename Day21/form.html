@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/myCss.css">
+    <title>MyBook Alterra</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Buat Account Baru!</h1>
+    </div>
+    <div class="content">
+        <div class="content-header">
+            <h2>Sign Up Form</h2>
+        </div>
+        <div class="content-body">
+            <form action="welcome.html">
+                <div class="form-check">
+                    <label class="form-check-label" for="first-name">First Name:</label>
+                    <input class="form-check-input" type="text" name="first-name" id="first-name">
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="last-name">Last Name:</label>
+                    <input class="form-check-input" type="text" name="last-name" id="last-name">
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="gender">Gender</label>
+                    <div class="form-check-input">
+                        <input type="radio" id="genderMale" name="gender" value="Male"> Male <br>
+                        <input type="radio" id="genderFemale" name="gender" value="Female"> Female <br>
+                        <input type="radio" id="genderOther" name="gender" value="Other"> Other
+                    </div>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="nationality">Nationality</label>
+                    <div class="form-check-input">
+                        <select id="nationality">
+                            <option id="nationality1" value="Indonesia" selected>Indonesia</option>
+                            <option id="nationality2" value="Singapore" >Singapore</option>
+                            <option id="nationality3" value="Malaysia" >Malaysia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="language">Language Spoken</label>
+                    <div class="form-check-input">
+                        <input type="checkbox" id="language1" name="language" value="Bahasa Indonesia"> Bahasa Indonesia <br>
+                        <input type="checkbox" id="language2" name="language" value="English"> English <br>
+                        <input type="checkbox" id="language3" name="language" value="Other"> Other
+                    </div>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="bio">Bio :</label>
+                    <div class="form-check-input">
+                        <textarea id="bio" name="bio" rows="10" cols="30"></textarea>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
